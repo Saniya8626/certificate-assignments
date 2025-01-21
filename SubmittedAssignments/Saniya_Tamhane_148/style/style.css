@@ -1,0 +1,273 @@
+
+    @font-face
+    {
+        font-family: caveat;
+        src: url("../fonts/caveat/static/Caveat-SemiBold.ttf");
+    }
+
+    @font-face {
+        font-family: Roboto_Condensed;
+        src: url("../fonts/Roboto_Condensed/static/RobotoCondensed-ExtraBold.ttf");
+    }
+
+    @font-face {
+        font-family: Roboto_Condensed;
+        src: url("../fonts/Roboto_Condensed/static/RobotoCondensed-Bold.ttf");
+    }
+
+    @font-face {
+        font-family: Imperial_Script;
+        src: url("../fonts/Imperial_Script/ImperialScript-Regular.ttf");
+    }
+
+    @font-face {
+        font-family: Roboto;
+        src: url("../fonts/static/Roboto_Condensed-ExtraLightItalic.ttf");
+    }
+
+    @font-face {
+        font-family: Lato;
+        src: url("../fonts/Lato/Lato-Bold.ttf");
+    }
+
+   
+
+body{
+    
+    background-color: gray;
+    height: 200mm;
+    width: 230mm;
+    margin-left: 60mm;
+    margin-top: 80mm;
+   
+    
+}
+
+
+
+.certificate-wrapper .certificate-background .boxx{
+    height: 450mm;
+    width: 650mm;
+    background-color: black;
+    position: relative;
+    top:2mm;
+    border-top: 5px solid gray; 
+    border-bottom: 5px solid gray;  /* Grey line at the bottom */
+    box-shadow: inset 0 3mm 1mm 1mm rgba(128, 128, 128, 0.5); 
+    
+   
+}
+
+
+.boxtop{
+    height: 420mm;
+    width: 620mm;
+    position: relative;
+    top: -435mm;
+    left: 15mm;
+    background-color: white;
+    
+    
+    border: 10mm solid  #c8c8c8;
+    border-bottom: 2mm solid transparent #c8c8c8;
+    box-sizing: border-box;
+    padding top: 200mm;   
+    margin top:10mm;
+        
+}
+    
+
+.boxbtm
+{
+   
+    height: 210mm;
+    width: 180mm;
+    background-color: grey;
+    position: absolute;
+    top: -150mm;
+    bottom: -5mm;
+    
+
+}
+
+
+
+.certificate-wrapper .certificate-content .title {
+    
+        position: absolute;
+        left: 15mm;
+        /* top: 15mm; */
+        right: 10mm;
+        font-size: 100pt;
+        text-align: center;
+        margin: auto;
+        text-transform: uppercase;
+        letter-spacing: 6mm;
+        padding-top: 110mm;
+        padding-right: 180mm;
+        font-family: caveat;
+        color:rgba(69,69,69,255);
+    
+      }
+    
+  
+  .certificate-wrapper .certificate-content {
+    top: 20mm;
+    right: 20mm;
+    bottom: 20mm;
+    left: 20mm;
+    position: absolute;
+  }
+  .certificate-wrapper .certificate-content .certificate-logo {
+    
+
+    position: absolute;
+    top: 0mm;
+    left: 90mm;
+    padding-top: 120mm;
+    padding-left: 0pt;
+    margin-left: -20mm;
+}
+
+.certificate-wrapper .certificate-content .initial-content
+{
+    text-align: center;
+    position: absolute;
+    top:10mm;
+    left: 70mm;
+    padding-top: 190mm;
+    padding-left: 150mm;
+    font-size: 45pt;
+    letter-spacing: 1mm;
+    text-transform: uppercase;
+    font-family: Roboto_Condensed;
+    letter-spacing: 2mm;
+    color:rgba(155,155,155,255)c;
+}
+.certificate-wrapper .certificate-content .sr-no
+{
+     text-align: center;
+     text-transform: uppercase;
+     position: absolute;
+     top:140mm;
+     padding-left: 300mm;
+     font-size: 60pt;
+     margin-top: 15mm;
+     font-family: Roboto_Condensed;
+     color: rgba(46,46,46,255);
+     
+     
+
+}
+.certificate-wrapper .certificate-content .candidate-name
+ {
+    
+    position: absolute;
+    top: 250mm;
+    font-size: 120pt;
+   word-spacing: 1mm;
+    padding-left: 260mm;
+    margin-top: -20mm;
+    letter-spacing: 1mm;
+    font-family: Imperial_Script;
+    color:black;
+    text-align: center;
+    text-decoration: underline dotted; 
+        text-decoration-thickness: 2mm;  
+        text-underline-position: under;
+       
+         
+        
+    
+    
+ }
+ 
+.org-address
+{
+    position: absolute;
+    top: 327mm;
+    left:150mm ;
+    font-size: 36pt;
+    width: 450mm;
+    height: 80mm;
+    line-height: 20mm;
+   
+}
+
+ 
+ .certificate-wrapper .certificate-content .main-content
+ {
+    letter-spacing: 1pt;
+    position: absolute;
+    top: 300mm;
+    padding-left: 150mm;
+    font-size: 50pt ;
+    margin-top:-2mm;
+    
+ }
+
+ .certificate-wrapper .certificate-content .sign-president
+ {
+    position: absolute;
+    top: 458mm;
+    text-transform: uppercase;
+    font-size: 13mm;
+    padding-left:150mm ;
+    font-family: Lato;
+    
+ }
+
+ 
+  
+ .certificate-wrapper .certificate-content .sign-director
+ {
+    position: absolute;
+    top: 458mm;
+    padding-left: 500mm;
+    padding-right: 10mm;
+    font-size: 13mm;
+    text-transform: uppercase;
+    font-family: Lato;
+   
+   
+ }
+ .sign-president::before {
+    content: '';
+    position: absolute;
+    top: -2mm;
+    left: 0;
+    width: 100mm;
+    height: 2mm;
+    margin-bottom: 6mm;
+    margin-left: 120mm;
+    background-color: black;
+    
+}
+
+.sign-director::before {
+    content: '';
+    position: absolute;
+    top: -2mm;;
+    left: 0;
+    width: 130mm;
+    height: 2mm;
+    margin-bottom: 6mm;
+    margin-left: 465mm;
+    background-color: black;
+}
+
+.certificate-wrapper .certificate-content .recttop
+{
+   
+    width: 650mm;
+    color:rgba(214,216,215,255);
+    padding-top: 150mm;
+    margin-top: 150mm;
+    padding-bottom: 4mm;
+    display: flex;
+    filter: blur(5mm);
+    position:relative;
+    display: flex;
+}
+
+
